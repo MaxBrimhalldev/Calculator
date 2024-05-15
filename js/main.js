@@ -1,7 +1,3 @@
+// need input and button selection
 
-document.querySelector('button').addEventListener('click',buttonRecognition)
-
-function pressOne(){
-	let total = 0
-	
-}
+// Once clicked what does it do?
