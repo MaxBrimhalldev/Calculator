@@ -1,3 +1,6 @@
-// need input and button selection
+// get value of display
 
-// Once clicked what does it do?
+//create button press
+// Functions for opperand, numbers and clear
+//How does the numbers function work?
+//
