@@ -1,9 +1,7 @@
 
 document.querySelector('button').addEventListener('click',buttonRecognition)
 
-function buttonRecognition(){
+function pressOne(){
 	let total = 0
-if(){
 	
-}
 }
