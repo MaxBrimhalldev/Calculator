@@ -19,7 +19,7 @@
 			</section>
 		</header>
 		<section class="calcBody">
-			<h2 id ='calcDisplay'></h2>
+			<h2 id ='calcDisplay'>0</h2>
 		</section>
 		<section class="calcBody">
 			<section class="border calcKeys">
@@ -39,16 +39,17 @@
 					<button id="nine">9</button>
 				</section>
 				<section class= "zero">
-					<button id="clear">C</button>
+					<button id="clear" data-action = 'clear'>C</button>
 					<button id="sero">0</button>
-					<button id="punc">.</button>
+					<button id="punc" data-action = 'decimal'>.</button>
 				</section>
 			</section>
 			<section class="vertical calcOperands">
-					<button id="divide">/</button>
-					<button id="multiply">*</button>
-					<button id="minus">-</button>
-					<button id="plus">+</button>
+					<button data-action="divide">/</button>
+					<button data-action="multiply">*</button>
+					<button data-action="minus">-</button>
+					<button data-action="plus">+</button>
+					<button data-action ="calculate">=</button>
 			</section>
 		</section>
 			<script src="C:/Users/Max Brimhall/Documents/GitHub/Calculator/js/main.js"></script>
