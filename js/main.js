@@ -1,4 +1,10 @@
 // get value of buttons
-let total = 0
-let display = document.querySelector('#calcDisplay')
-let keys = document.querySelector('#calcKeys')
+let Calculator = {
+	
+	calculator.total = 0
+	calculator.display = document.querySelector('#calcDisplay')
+	calculator.keys = document.querySelector('#calcKeys').addEventListener('click', calculate)
+	calculator.calculate (){
+		
+	}
+}
