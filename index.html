@@ -8,7 +8,7 @@
 		<title>Calculator</title>
 
 		<!-- external CSS link -->
-		<link rel="stylesheet" href="C:/Users/Max Brimhall/Documents/GitHub/Calculator/css/main.css">
+		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
@@ -18,8 +18,9 @@
 				<p>Enjoy your calculating journey as you calculate.</p>
 			</section>
 		</header>
-		<section class="calcBody">
-			<h2 id ='calcDisplay'>0</h2>
+		<section class="calcHeading">
+			<h2 id ='calcDisplay'></h2>
+			<h3 id= 'calcResult'></h3>
 		</section>
 		<section class="calcBody">
 			<section class="border calcKeys">
@@ -44,14 +45,14 @@
 					<button id="punc" data-action = 'decimal'>.</button>
 				</section>
 			</section>
-			<section class="vertical calcOperands">
-					<button data-action="divide">/</button>
-					<button data-action="multiply">*</button>
-					<button data-action="minus">-</button>
-					<button data-action="plus">+</button>
-					<button data-action ="calculate">=</button>
+			<section class="vertical calcKeys">
+					<button id="divide">/</button>
+					<button id="multiply">*</button>
+					<button id="minus">-</button>
+					<button id="plus">+</button>
+					<button id ="calculate">=</button>
 			</section>
 		</section>
-			<script src="C:/Users/Max Brimhall/Documents/GitHub/Calculator/js/main.js"></script>
+			<script type="text/javascript" src='js/main.js'></script>
 	</body>
 </html>
