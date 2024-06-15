@@ -2,16 +2,29 @@ html{
 	font-size: 20px;
 }
 .calcBody, .calcHeading{
-	display: grid;
+	display: flex;
 	justify-content: center;
-	font-size: 1.2rem;
+}
+.calcHeading{
 	
 }
 .zero{
 	display: flex;
-	justify-content: center;
+	justify-content: start;
+	align-content: start;
+	font-size: 1.21rem;
 }
 .vertical{
 	display:flex;
 	flex-direction: column;
+}
+button{
+	display: flex;
+	margin: auto;
+	padding: auto;
+	width: 1rem;
+	justify-content: center;
+}
+#calculate{
+	height: 100%;
 }
