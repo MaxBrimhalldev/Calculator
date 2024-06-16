@@ -6,7 +6,7 @@ html{
 	justify-content: center;
 }
 .calcHeading{
-	
+	font-weight: bold;
 }
 .zero{
 	display: flex;
