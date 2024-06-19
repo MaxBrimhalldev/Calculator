@@ -1,9 +1,14 @@
 html{
 	font-size: 20px;
 }
+header, h1{
+	display: flex;
+	justify-content: center;
+}
 .calcBody, .calcHeading{
 	display: flex;
 	justify-content: center;
+	align-content: center;
 }
 .calcHeading{
 	font-weight: bold;
