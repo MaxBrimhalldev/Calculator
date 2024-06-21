@@ -1,3 +1,5 @@
+/* layout*/
+
 html{
 	font-size: 20px;
 }
@@ -11,12 +13,16 @@ header, h1{
 	align-content: center;
 }
 .calcHeading{
-	font-weight: bold;
+	margin: auto 36.8% auto 36.8%;
+	font-size: 1.5rem;
+	justify-content: end;
+}
+.calcBody{
+	margin: auto 40% auto 40%;
 }
 .zero{
 	display: flex;
-	justify-content: start;
-	align-content: start;
+	justify-content: space-evenly;
 	font-size: 1.21rem;
 }
 .vertical{
@@ -27,9 +33,41 @@ button{
 	display: flex;
 	margin: auto;
 	padding: auto;
-	width: 1rem;
-	justify-content: center;
+	width: 5rem;
+	justify-content: space-evenly;
+	font-size: 1.5rem;
 }
 #calculate{
 	height: 100%;
+}
+
+/* Style */
+
+html{
+	
+}
+header, h1{
+	
+}
+.calcBody{
+	
+}
+.calcHeading{
+	font-weight: bold;
+	background-color: black;
+	
+	color: white;
+}
+.zero{
+	
+}
+.vertical{
+	
+}
+button{
+	background-color: rgba(255, 165, 0,1);
+	border-style: none;
+}
+#calculate{
+	
 }
